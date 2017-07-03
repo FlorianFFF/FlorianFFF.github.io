@@ -1,12 +1,15 @@
 <!DOCTYPE html>
+<html>
+<head>
 <meta charset="utf-8">
+</head>
 <body>
 <script src="d3.v3.min.js"></script>
 <script src="topojson.v1.min.js"></script>
 <script src="datamaps.none.min.js"></script>
+<script src="jquery-3.2.1.min.js"></script>
 
-<h1>Welcome to Florion and Sandors beutifol page</h1>
-<div id="arcs" style="height: 800px; width: 900px;"></div>
+<div id="arcs" style="height: 580px; width: 500px;"></div>
 
 <script>
   var map = new Datamap({
@@ -38,13 +41,49 @@
       var projection = d3.geo.mercator()
         .center([6, 52])
         .scale(7000)
-        .translate([element.offsetWidth / 2 - 70, element.offsetHeight / 2 - 70]);
+        .translate([element.offsetWidth / 2 + 95, element.offsetHeight / 2 + 40]);
 
        var path = d3.geo.path().projection(projection);
        return {path: path, projection: projection};
     }
   });
-
+  $(function(){
+    $("#arcs").click(function(event){
+      var target = $(event.target);
+      if(target.hasClass("datamaps-subunit")){
+        switch(target.attr("class").substring(17)){
+          case "Amsterdam":
+              break;
+          case "Breda":
+              break;
+          case "Delft":
+              break;
+          case "Eindhoven":
+              break;
+          case "Enschede":
+              break;
+          case "Groningen (Gr)":
+              break;
+          case "Leiden":
+              break;
+          case "Maastricht":
+              break;
+          case "Nijmegen":
+              break;
+          case "Rotterdam":
+              break;
+          case "Tilburg":
+              break;
+          case "Utrecht (Ut)":
+              break;
+          case "Wageningen":
+              break;
+          default:
+            alert("This municipality doesn't have a university");
+        }
+      }
+    });
+  });
 
 </script>
 </body>
