@@ -12,6 +12,3 @@ Tilburg 207
 Utrecht 313
 Wageningen 88
 
-
-bachelor = die dat jaar beginnen met de studie
-propedeuse bachelor = reeds op de studie
