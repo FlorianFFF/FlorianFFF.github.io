@@ -1,41 +1,41 @@
-"OPLEIDINGSNAAM_ACTUEEL","TotalStudents"
-"B Communicatiewetenschap","1396"
-"B Pedagogische Wetenschappen","4488"
-"B Politicologie","1510"
-"B Psychologie","6882"
-"B Sociologie","731"
-"B Culturele Antropologie en Ontwikkelingssociologie","916"
-"B Economie en Bedrijfseconomie","2577"
-"B Bedrijfskunde","5095"
-"B Bestuurskunde","1344"
-"B Geografie, Planologie en Milieu","1414"
-"B Geneeskunde","5626"
-"B Tandheelkunde","1079"
-"B Biomedische Wetenschappen","1650"
-"B Communicatie- en Informatiewetenschappen","2181"
-"B Kunstgeschiedenis","362"
-"B Algemene Cultuurwetenschappen","671"
-"B Engelse Taal en Cultuur","1684"
-"B Duitse Taal en Cultuur","296"
-"B Nederlandse Taal en Cultuur","609"
-"B Taalwetenschap","425"
-"B Taal- en Cultuurstudies","37"
-"B Theologie","112"
-"B Wijsbegeerte","1085"
-"B Romaanse Talen en Culturen","511"
-"B Kunstmatige Intelligentie","1193"
-"B Geschiedenis","2055"
-"B Griekse en Latijnse Taal en Cultuur","317"
-"B Religiewetenschappen","404"
-"B Informatiekunde","116"
-"B Scheikunde","889"
-"B Biologie","3108"
-"B Science","527"
-"B Informatica","1025"
-"B Wiskunde","967"
-"B Notarieel Recht","790"
-"B Rechtsgeleerdheid","6793"
-"B European Law School","1225"
-"B Moleculaire Levenswetenschappen","886"
-"B Natuur- en Sterrenkunde","1332"
-"B Islam en Arabisch","73"
+id,value
+Communicatiewetenschap,1396
+Pedagogische Wetenschappen,4488
+Politicologie,1510
+Psychologie,6882
+Sociologie,731
+Culturele Antropologie en Ontwikkelingssociologie,916
+Economie en Bedrijfseconomie,2577
+Bedrijfskunde,5095
+Bestuurskunde,1344
+Geografie, Planologie en Milieu,1414
+Geneeskunde,5626
+Tandheelkunde,1079
+Biomedische Wetenschappen,1650
+Communicatie- en Informatiewetenschappen,2181
+Kunstgeschiedenis,362
+Algemene Cultuurwetenschappen,671
+Engelse Taal en Cultuur,1684
+Duitse Taal en Cultuur,296
+Nederlandse Taal en Cultuur,609
+Taalwetenschap,425
+Taal- en Cultuurstudies,37
+Theologie,112
+Wijsbegeerte,1085
+Romaanse Talen en Culturen,511
+Kunstmatige Intelligentie,1193
+Geschiedenis,2055
+Griekse en Latijnse Taal en Cultuur,317
+Religiewetenschappen,404
+Informatiekunde,116
+Scheikunde,889
+Biologie,3108
+Science,527
+Informatica,1025
+Wiskunde,967
+Notarieel Recht,790
+Rechtsgeleerdheid,6793
+European Law School,1225
+Moleculaire Levenswetenschappen,886
+Natuur- en Sterrenkunde,1332
+Islam en Arabisch,73

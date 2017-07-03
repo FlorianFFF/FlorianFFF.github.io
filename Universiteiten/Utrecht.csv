@@ -1,49 +1,49 @@
-"OPLEIDINGSNAAM_ACTUEEL","TotalStudents"
-"B Psychologie","8398"
-"B Pedagogische Wetenschappen","3194"
-"B Onderwijskunde","1948"
-"B Algemene Sociale Wetenschappen","2717"
-"B Sociale Geografie en Planologie","3699"
-"B Milieu-maatschappijwetenschappen","532"
-"B Geneeskunde","5030"
-"B Diergeneeskunde","3787"
-"B Biomedische Wetenschappen","2460"
-"B Farmacie","4001"
-"B Informatiekunde","1614"
-"B Scheikunde","1389"
-"B Biologie","3478"
-"B Informatica","2564"
-"B Wiskunde","1965"
-"B Kunstmatige Intelligentie","848"
-"B Natuurwetenschap en Innovatiemanagement","1521"
-"B Natuur- en Sterrenkunde","1800"
-"B Aardwetenschappen","2467"
-"B Milieu-natuurwetenschappen","381"
-"B Rechtsgeleerdheid","12101"
-"B Liberal Arts and Sciences","8813"
-"B Communicatie- en Informatiewetenschappen","2113"
-"B Theater-, Film- en Televisiewetenschap","1099"
-"B Religiewetenschappen","101"
-"B Media en Cultuur","671"
-"B Geschiedenis","3899"
-"B Islam en Arabisch","133"
-"B Wijsbegeerte","1168"
-"B Keltische Talen en Cultuur","160"
-"B Godgeleerdheid","166"
-"B Muziekwetenschap","533"
-"B Taal- en Cultuurstudies","2984"
-"B Literatuurwetenschap","437"
-"B Taalwetenschap","474"
-"B Nederlandse Taal en Cultuur","1110"
-"B Duitse Taal en Cultuur","296"
-"B Engelse Taal en Cultuur","1726"
-"B Franse Taal en Cultuur","447"
-"B Italiaanse Taal en Cultuur","183"
-"B Spaanse Taal en Cultuur","467"
-"B Portugese Taal en Cultuur","75"
-"B Kunstgeschiedenis","851"
-"B Sociologie","1160"
-"B Culturele Antropologie en Ontwikkelingssociologie","1448"
-"B Bestuurs- en Organisatiewetenschap","1748"
-"B Economie en Bedrijfseconomie","5385"
-"B Global Sustainability Science","185"
+id,value
+Psychologie,8398
+Pedagogische Wetenschappen,3194
+Onderwijskunde,1948
+Algemene Sociale Wetenschappen,2717
+Sociale Geografie en Planologie,3699
+Milieu-maatschappijwetenschappen,532
+Geneeskunde,5030
+Diergeneeskunde,3787
+Biomedische Wetenschappen,2460
+Farmacie,4001
+Informatiekunde,1614
+Scheikunde,1389
+Biologie,3478
+Informatica,2564
+Wiskunde,1965
+Kunstmatige Intelligentie,848
+Natuurwetenschap en Innovatiemanagement,1521
+Natuur- en Sterrenkunde,1800
+Aardwetenschappen,2467
+Milieu-natuurwetenschappen,381
+Rechtsgeleerdheid,12101
+Liberal Arts and Sciences,8813
+Communicatie- en Informatiewetenschappen,2113
+Theater-, Film- en Televisiewetenschap,1099
+Religiewetenschappen,101
+Media en Cultuur,671
+Geschiedenis,3899
+Islam en Arabisch,133
+Wijsbegeerte,1168
+Keltische Talen en Cultuur,160
+Godgeleerdheid,166
+Muziekwetenschap,533
+Taal- en Cultuurstudies,2984
+Literatuurwetenschap,437
+Taalwetenschap,474
+Nederlandse Taal en Cultuur,1110
+Duitse Taal en Cultuur,296
+Engelse Taal en Cultuur,1726
+Franse Taal en Cultuur,447
+Italiaanse Taal en Cultuur,183
+Spaanse Taal en Cultuur,467
+Portugese Taal en Cultuur,75
+Kunstgeschiedenis,851
+Sociologie,1160
+Culturele Antropologie en Ontwikkelingssociologie,1448
+Bestuurs- en Organisatiewetenschap,1748
+Economie en Bedrijfseconomie,5385
+Global Sustainability Science,185

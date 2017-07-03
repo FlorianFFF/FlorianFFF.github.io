@@ -1,19 +1,19 @@
-"OPLEIDINGSNAAM_ACTUEEL","TotalStudents"
-"B Klinische Technologie (joint degree)","518"
-"B Molecular Science and Technology (joint degree)","87"
-"B Life Science and Technology (joint degree)","437"
-"B Nanobiologie (joint degree)","825"
-"B Life Science and Technology","972"
-"B Bouwkunde","6344"
-"B Civiele Techniek","7040"
-"B Electrical Engineering","2114"
-"B Industrieel Ontwerpen","5540"
-"B Luchtvaart- en Ruimtevaarttechniek","7125"
-"B Maritieme Techniek","2208"
-"B Technische Aardwetenschappen","1564"
-"B Technische Natuurkunde","3691"
-"B Technische Informatica","3214"
-"B Technische Wiskunde","1721"
-"B Werktuigbouwkunde","10027"
-"B Technische Bestuurskunde","4050"
-"B Molecular Science and Technology","1050"
+id,value
+Klinische Technologie (joint degree),518
+Molecular Science and Technology (joint degree),87
+Life Science and Technology (joint degree),437
+Nanobiologie (joint degree),825
+Life Science and Technology,972
+Bouwkunde,6344
+Civiele Techniek,7040
+Electrical Engineering,2114
+Industrieel Ontwerpen,5540
+Luchtvaart- en Ruimtevaarttechniek,7125
+Maritieme Techniek,2208
+Technische Aardwetenschappen,1564
+Technische Natuurkunde,3691
+Technische Informatica,3214
+Technische Wiskunde,1721
+Werktuigbouwkunde,10027
+Technische Bestuurskunde,4050
+Molecular Science and Technology,1050

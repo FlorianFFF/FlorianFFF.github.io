@@ -1,66 +1,66 @@
-"OPLEIDINGSNAAM_ACTUEEL","TotalStudents"
-"B American Studies","1123"
-"B Wijsbegeerte van een Bepaald Wetenschapsgebied","616"
-"B English Language and Culture","1174"
-"B Internationale Betrekkingen en Internationale Organisatie","3577"
-"B Liberal Arts and Sciences","218"
-"B Communicatie- en Informatiewetenschappen","1655"
-"B Internationaal en Europees Recht","1660"
-"B Kunsten, Cultuur en Media","1149"
-"B Notarieel Recht","278"
-"B Kunstgeschiedenis","418"
-"B Fiscaal Recht","695"
-"B Religiewetenschappen","174"
-"B Recht en Bestuur","177"
-"B Finoegrische Talen en Culturen","35"
-"B Rechtsgeleerdheid","8716"
-"B Media en Cultuur","189"
-"B Recht en ICT","335"
-"B Slavische Talen en Culturen","43"
-"B European Law School","249"
-"B Griekse en Latijnse Taal en Cultuur","266"
-"B Farmaceutische Wetenschappen","25"
-"B Europese Talen en Culturen","1192"
-"B Scandinavische Talen en Culturen","95"
-"B Minorities & Multilingualism","87"
-"B Engelse Taal en Cultuur","262"
-"B Geschiedenis","3235"
-"B Duitse Taal en Cultuur","166"
-"B Romaanse Talen en Culturen","403"
-"B Nederlandse Taal en Cultuur","815"
-"B Theologie","317"
-"B Wijsbegeerte","855"
-"B Taalwetenschap","681"
-"B Midden-Oostenstudies","348"
-"B Archeologie","407"
-"B Technische Bedrijfskunde","2150"
-"B Godsdienstwetenschap","151"
-"B Kunstmatige Intelligentie","1225"
-"B Wiskunde","866"
-"B Technische Wiskunde","157"
-"B Informatica","871"
-"B Biologie","2653"
-"B Scheikunde","822"
-"B Technische Natuurkunde","545"
-"B Informatiekunde","495"
-"B Life Science and Technology","2111"
-"B Farmacie","2043"
-"B Scheikundige Technologie","605"
-"B Natuurkunde","1145"
-"B Sterrenkunde","372"
-"B Bewegingswetenschappen","2057"
-"B International Business","5496"
-"B Tandheelkunde","949"
-"B Geneeskunde","7291"
-"B Sociale Geografie en Planologie","1763"
-"B Accountancy en Controlling","493"
-"B Pedagogische Wetenschappen","3799"
-"B Psychologie","10693"
-"B Sociologie","1350"
-"B Bedrijfskunde","7975"
-"B Technische Planologie","866"
-"B Econometrie en Operationele Research","1714"
-"B Fiscale Economie","154"
-"B Bedrijfseconomie","646"
-"B Technologie Management","326"
-"B Economie en Bedrijfseconomie","4719"
+id,value
+American Studies,1123
+Wijsbegeerte van een Bepaald Wetenschapsgebied,616
+English Language and Culture,1174
+Internationale Betrekkingen en Internationale Organisatie,3577
+Liberal Arts and Sciences,218
+Communicatie- en Informatiewetenschappen,1655
+Internationaal en Europees Recht,1660
+Kunsten, Cultuur en Media,1149
+Notarieel Recht,278
+Kunstgeschiedenis,418
+Fiscaal Recht,695
+Religiewetenschappen,174
+Recht en Bestuur,177
+Finoegrische Talen en Culturen,35
+Rechtsgeleerdheid,8716
+Media en Cultuur,189
+Recht en ICT,335
+Slavische Talen en Culturen,43
+European Law School,249
+Griekse en Latijnse Taal en Cultuur,266
+Farmaceutische Wetenschappen,25
+Europese Talen en Culturen,1192
+Scandinavische Talen en Culturen,95
+Minorities & Multilingualism,87
+Engelse Taal en Cultuur,262
+Geschiedenis,3235
+Duitse Taal en Cultuur,166
+Romaanse Talen en Culturen,403
+Nederlandse Taal en Cultuur,815
+Theologie,317
+Wijsbegeerte,855
+Taalwetenschap,681
+Midden-Oostenstudies,348
+Archeologie,407
+Technische Bedrijfskunde,2150
+Godsdienstwetenschap,151
+Kunstmatige Intelligentie,1225
+Wiskunde,866
+Technische Wiskunde,157
+Informatica,871
+Biologie,2653
+Scheikunde,822
+Technische Natuurkunde,545
+Informatiekunde,495
+Life Science and Technology,2111
+Farmacie,2043
+Scheikundige Technologie,605
+Natuurkunde,1145
+Sterrenkunde,372
+Bewegingswetenschappen,2057
+International Business,5496
+Tandheelkunde,949
+Geneeskunde,7291
+Sociale Geografie en Planologie,1763
+Accountancy en Controlling,493
+Pedagogische Wetenschappen,3799
+Psychologie,10693
+Sociologie,1350
+Bedrijfskunde,7975
+Technische Planologie,866
+Econometrie en Operationele Research,1714
+Fiscale Economie,154
+Bedrijfseconomie,646
+Technologie Management,326
+Economie en Bedrijfseconomie,4719

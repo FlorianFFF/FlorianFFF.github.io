@@ -1,89 +1,89 @@
-"OPLEIDINGSNAAM_ACTUEEL","TotalStudents"
-"B Kunstgeschiedenis","2090"
-"B Rechtsgeleerdheid","15871"
-"B Fiscaal Recht","1039"
-"B Notarieel Recht","903"
-"B Future Planet Studies","2018"
-"B Liberal Arts and Sciences (joint degree)","3800"
-"B Politics, Psychology, Law and Economics","694"
-"B Media en informatie","168"
-"B Hebreeuwse Taal en Cultuur","91"
-"B Religiewetenschappen","390"
-"B Media en Cultuur","4168"
-"B Griekse en Latijnse Taal en Cultuur","339"
-"B Geschiedenis","4297"
-"B Arabische Taal en Cultuur","282"
-"B Europese Studies","2921"
-"B Wijsbegeerte","2611"
-"B Muziekwetenschap","628"
-"B Theaterwetenschap","750"
-"B Literatuurwetenschap","550"
-"B Taalwetenschap","496"
-"B Nederlandse Taal en Cultuur","1612"
-"B Duitse Taal en Cultuur","308"
-"B Engelse Taal en Cultuur","1934"
-"B Scandinavische Talen en Culturen","289"
-"B Franse Taal en Cultuur","391"
-"B Italiaanse Taal en Cultuur","313"
-"B Spaanse Taal en Cultuur","537"
-"B Roemeense Taal en Cultuur","12"
-"B Slavische Talen en Culturen","376"
-"B Nieuwgriekse Taal en Cultuur","86"
-"B Latijnse Taal en Cultuur","70"
-"B Algemene Cultuurwetenschappen","794"
-"B Archeologie en Prehistorie","305"
-"B Bedrijfskunde","5486"
-"B Economie en Bedrijfseconomie","3335"
-"B International Business Administration","2338"
-"B Econometrie en Operationele Research","2953"
-"B Bestuurs- en Organisatiewetenschap","4111"
-"B Culturele Antropologie en Ontwikkelingssociologie","2812"
-"B Criminologie","1892"
-"B Sociologie","2126"
-"B Psychologie","12226"
-"B Politicologie","4440"
-"B Pedagogische Wetenschappen","4454"
-"B Communicatiewetenschap","7929"
-"B Gezondheid en Leven","3176"
-"B Geneeskunde","12537"
-"B Gezondheidswetenschappen","2613"
-"B Tandheelkunde","2356"
-"B Bewegingswetenschappen","2965"
-"B Biomedische Wetenschappen","4387"
-"B Computer Science","880"
-"B Aarde en Economie","1025"
-"B Science, Business & Innovation","1461"
-"B Medische Natuurwetenschappen","842"
-"B Scheikunde (joint degree)","195"
-"B Natuur- en Sterrenkunde (joint degree)","256"
-"B Economie en Bedrijfskunde","11964"
-"B Fiscale Economie","924"
-"B Actuariele Wetenschappen","175"
-"B Onderwijskunde","310"
-"B Algemene Sociale Wetenschappen","2066"
-"B Sociale Geografie en Planologie","1995"
-"B Medische Informatiekunde","482"
-"B Bio-exact","3"
-"B Psychobiologie","3548"
-"B Beta-gamma","2260"
-"B Informatiekunde","971"
-"B Kunstmatige Intelligentie","1112"
-"B Communicatie- en Informatiewetenschappen","951"
-"B Oudheidkunde","199"
-"B Archeologie","204"
-"B Religie en Levensbeschouwing","170"
-"B Theologie","122"
-"B Literatuur en Samenleving","189"
-"B Media, Kunst, Design en Architectuur","456"
-"B Theologie (joint degree)","248"
-"B Philosophy, Politics and Economics","44"
-"B Farmaceutische Wetenschappen","1163"
-"B Aardwetenschappen","1221"
-"B Natuur- en Sterrenkunde","1859"
-"B Lifestyle Informatics","653"
-"B Wiskunde","1375"
-"B Informatica","1394"
-"B Informatie, Multimedia en Management","898"
-"B Biologie","1414"
-"B Scheikunde","852"
-"B Business Analytics","1045"
+id,value
+Kunstgeschiedenis,2090
+Rechtsgeleerdheid,15871
+Fiscaal Recht,1039
+Notarieel Recht,903
+Future Planet Studies,2018
+Liberal Arts and Sciences (joint degree),3800
+Politics, Psychology, Law and Economics,694
+Media en informatie,168
+Hebreeuwse Taal en Cultuur,91
+Religiewetenschappen,390
+Media en Cultuur,4168
+Griekse en Latijnse Taal en Cultuur,339
+Geschiedenis,4297
+Arabische Taal en Cultuur,282
+Europese Studies,2921
+Wijsbegeerte,2611
+Muziekwetenschap,628
+Theaterwetenschap,750
+Literatuurwetenschap,550
+Taalwetenschap,496
+Nederlandse Taal en Cultuur,1612
+Duitse Taal en Cultuur,308
+Engelse Taal en Cultuur,1934
+Scandinavische Talen en Culturen,289
+Franse Taal en Cultuur,391
+Italiaanse Taal en Cultuur,313
+Spaanse Taal en Cultuur,537
+Roemeense Taal en Cultuur,12
+Slavische Talen en Culturen,376
+Nieuwgriekse Taal en Cultuur,86
+Latijnse Taal en Cultuur,70
+Algemene Cultuurwetenschappen,794
+Archeologie en Prehistorie,305
+Bedrijfskunde,5486
+Economie en Bedrijfseconomie,3335
+International Business Administration,2338
+Econometrie en Operationele Research,2953
+Bestuurs- en Organisatiewetenschap,4111
+Culturele Antropologie en Ontwikkelingssociologie,2812
+Criminologie,1892
+Sociologie,2126
+Psychologie,12226
+Politicologie,4440
+Pedagogische Wetenschappen,4454
+Communicatiewetenschap,7929
+Gezondheid en Leven,3176
+Geneeskunde,12537
+Gezondheidswetenschappen,2613
+Tandheelkunde,2356
+Bewegingswetenschappen,2965
+Biomedische Wetenschappen,4387
+Computer Science,880
+Aarde en Economie,1025
+Science, Business & Innovation,1461
+Medische Natuurwetenschappen,842
+Scheikunde (joint degree),195
+Natuur- en Sterrenkunde (joint degree),256
+Economie en Bedrijfskunde,11964
+Fiscale Economie,924
+Actuariele Wetenschappen,175
+Onderwijskunde,310
+Algemene Sociale Wetenschappen,2066
+Sociale Geografie en Planologie,1995
+Medische Informatiekunde,482
+Bio-exact,3
+Psychobiologie,3548
+Beta-gamma,2260
+Informatiekunde,971
+Kunstmatige Intelligentie,1112
+Communicatie- en Informatiewetenschappen,951
+Oudheidkunde,199
+Archeologie,204
+Religie en Levensbeschouwing,170
+Theologie,122
+Literatuur en Samenleving,189
+Media, Kunst, Design en Architectuur,456
+Theologie (joint degree),248
+Philosophy, Politics and Economics,44
+Farmaceutische Wetenschappen,1163
+Aardwetenschappen,1221
+Natuur- en Sterrenkunde,1859
+Lifestyle Informatics,653
+Wiskunde,1375
+Informatica,1394
+Informatie, Multimedia en Management,898
+Biologie,1414
+Scheikunde,852
+Business Analytics,1045
