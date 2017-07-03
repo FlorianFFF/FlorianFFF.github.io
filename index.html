@@ -16,8 +16,8 @@
     },
     scope: 'townships',
     fills: {
-      defaultFill: '#bada55',
-      hasUni: '#fa0fa0'
+      defaultFill: '#dbdbeb',
+      hasUni: '#7577CD'
     },
     data: {
       "Amsterdam": {fillKey: "hasUni"},
@@ -38,7 +38,7 @@
       var projection = d3.geo.mercator()
         .center([6, 52])
         .scale(7000)
-        .translate([element.offsetWidth / 2 - 50, element.offsetHeight / 2 - 50]);
+        .translate([element.offsetWidth / 2 - 70, element.offsetHeight / 2 - 70]);
 
        var path = d3.geo.path().projection(projection);
        return {path: path, projection: projection};
