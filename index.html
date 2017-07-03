@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
 <body>
-<script src="https://d3js.org/d3.v3.min.js"></script>
-<script src="https://d3js.org/topojson.v1.min.js"></script>
+<script src="d3.v3.min.js"></script>
+<script src="topojson.v1.min.js"></script>
 <script src="datamaps.none.min.js"></script>
 
 <h1>Welcome to Florion and Sandors beutifol page</h1>
@@ -33,9 +33,6 @@
       "Tilburg": {fillKey: "hasUni"},
       "Utrecht (Ut)": {fillKey: "hasUni"},
       "Wageningen": {fillKey: "hasUni"}
-    },
-    data: {
-      '222': {fillKey: 'someKey'}
     },
     setProjection: function(element) {
       var projection = d3.geo.mercator()
