@@ -5,7 +5,7 @@
 <script src="topojson.v1.min.js"></script>
 <script src="datamaps.none.min.js"></script>
 <h1>Welcome to Florion and Sandors beutifol page</h1>
-<div id="arcs" style="height: 500px; width: 900px;"></div>
+<div id="arcs" style="height: 800px; width: 900px;"></div>
 <script>
   var map = new Datamap({
     element: document.getElementById('arcs'),
@@ -19,8 +19,8 @@
     },
     setProjection: function(element) {
       var projection = d3.geo.mercator()
-        .center([66.166667, 34.4444])
-        .scale(2200)
+        .center([6, 52])
+        .scale(9000)
         .translate([element.offsetWidth / 2, element.offsetHeight / 2]);
 
        var path = d3.geo.path().projection(projection);
