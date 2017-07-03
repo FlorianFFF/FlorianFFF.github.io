@@ -12,18 +12,33 @@
   var map = new Datamap({
     element: document.getElementById('arcs'),
     geographyConfig: {
-      dataUrl: 'townships.json'
+      dataUrl: 'new.json'
     },
     scope: 'townships',
     fills: {
       defaultFill: '#bada55',
-      someKey: '#fa0fa0'
+      hasUni: '#fa0fa0'
+    },
+    data: {
+      "Amsterdam": {fillKey: "hasUni"},
+      "Breda": {fillKey: "hasUni"},
+      "Delft": {fillKey: "hasUni"},
+      "Eindhoven": {fillKey: "hasUni"},
+      "Enschede": {fillKey: "hasUni"},
+      "Groningen (Gr)": {fillKey: "hasUni"},
+      "Leiden": {fillKey: "hasUni"},
+      "Maastricht": {fillKey: "hasUni"},
+      "Nijmegen": {fillKey: "hasUni"},
+      "Rotterdam": {fillKey: "hasUni"},
+      "Tilburg": {fillKey: "hasUni"},
+      "Utrecht (Ut)": {fillKey: "hasUni"},
+      "Wageningen": {fillKey: "hasUni"}
     },
     setProjection: function(element) {
       var projection = d3.geo.mercator()
         .center([6, 52])
-        .scale(9000)
-        .translate([element.offsetWidth / 2, element.offsetHeight / 2]);
+        .scale(7000)
+        .translate([element.offsetWidth / 2 - 50, element.offsetHeight / 2 - 50]);
 
        var path = d3.geo.path().projection(projection);
        return {path: path, projection: projection};
