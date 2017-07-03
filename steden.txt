@@ -1,0 +1,13 @@
+Amsterdam 222
+Breda* 164
+Delft 343
+Eindhoven 171
+Enschede 275
+Groningen 102
+Leiden 360
+Maastricht 133
+Nijmegen 74
+Rotterdam 377
+Tilburg 207
+Utrecht 313
+Wageningen 88
