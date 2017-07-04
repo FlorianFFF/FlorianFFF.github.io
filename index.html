@@ -122,11 +122,11 @@
           case "Wageningen":
             $("header > h3").text(city);
             uni(city);
-            gauge1.update(Math.round(man(city)));
-            gauge2.update(Math.round(vrouw(city)));
+            gauge1.update(Math.round(vrouw(city)));
+            gauge2.update(Math.round(man(city)));
             break;
           default:
-            $("header > h3").text("This municipality ("+ target.attr("class").substring(17) +") doesn't have a university");
+            $("header > h3").text("This municipality ("+ city +") doesn't have a university");
         }
       }
     });
