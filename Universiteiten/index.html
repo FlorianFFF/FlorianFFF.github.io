@@ -47,7 +47,7 @@ d3.json("Rotterdam.json", function(error, root) {
 
   node.append("circle")
       .attr("r", function(d) { return d.r; })
-      .style("fill", function(d) { return color(d.packageName); })
+      .style("fill", function(d) { return color(d.className); })
       .on("mouseover", function(d) {
               tooltip.text(d.className + ": " + format(d.value));
               tooltip.style("visibility", "visible");
