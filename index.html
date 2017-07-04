@@ -96,7 +96,7 @@
     setProjection: function(element) {
       var projection = d3.geo.mercator()
         .center([6, 52])
-        .scale(6000)
+        .scale(6500)
         .translate([element.offsetWidth / 2 + 95, element.offsetHeight / 2 + 40]);
 
        var path = d3.geo.path().projection(projection);
