@@ -1,23 +1,27 @@
-{"name":"Klinische Technologie (joint degree)","size":1.0}
-{"name":"Bestuurskunde","size":1926.0}
-{"name":"Geneeskunde","size":7044.0}
-{"name":"Pedagogische Wetenschappen","size":1305.0}
-{"name":"Gezondheidswetenschappen","size":2013.0}
-{"name":"Psychologie","size":4575.0}
-{"name":"Rechtsgeleerdheid","size":10907.0}
-{"name":"Criminologie","size":1668.0}
-{"name":"Fiscaal Recht","size":2457.0}
-{"name":"International Bachelor's Programme in Communication and Media","size":2459.0}
-{"name":"Liberal Arts and Sciences","size":932.0}
-{"name":"Econometrie en Operationele Research","size":3634.0}
-{"name":"Geschiedenis","size":1250.0}
-{"name":"Fiscale Economie","size":1503.0}
-{"name":"Wijsbegeerte","size":850.0}
-{"name":"International Business Administration","size":6754.0}
-{"name":"Algemene Cultuurwetenschappen","size":1315.0}
-{"name":"Economie en Informatica","size":30.0}
-{"name":"Wijsbegeerte van een Bepaald Wetenschapsgebied","size":1119.0}
-{"name":"Economie en Bedrijfseconomie","size":11986.0}
-{"name":"Nanobiologie (joint degree)","size":25.0}
-{"name":"Bedrijfskunde","size":10709.0}
-{"name":"Sociologie","size":1058.0}
+{
+        "children": [
+		{"name":"Klinische Technologie (joint degree)","size":1.0},
+		{"name":"Bestuurskunde","size":1926.0},
+		{"name":"Geneeskunde","size":7044.0},
+		{"name":"Pedagogische Wetenschappen","size":1305.0},
+		{"name":"Gezondheidswetenschappen","size":2013.0},
+		{"name":"Psychologie","size":4575.0},
+		{"name":"Rechtsgeleerdheid","size":10907.0},
+		{"name":"Criminologie","size":1668.0},
+		{"name":"Fiscaal Recht","size":2457.0},
+		{"name":"International Bachelor's Programme in Communication and Media","size":2459.0},
+		{"name":"Liberal Arts and Sciences","size":932.0},
+		{"name":"Econometrie en Operationele Research","size":3634.0},
+		{"name":"Geschiedenis","size":1250.0},
+		{"name":"Fiscale Economie","size":1503.0},
+		{"name":"Wijsbegeerte","size":850.0},
+		{"name":"International Business Administration","size":6754.0},
+		{"name":"Algemene Cultuurwetenschappen","size":1315.0},
+		{"name":"Economie en Informatica","size":30.0},
+		{"name":"Wijsbegeerte van een Bepaald Wetenschapsgebied","size":1119.0},
+		{"name":"Economie en Bedrijfseconomie","size":11986.0},
+		{"name":"Nanobiologie (joint degree)","size":25.0},
+		{"name":"Bedrijfskunde","size":10709.0},
+		{"name":"Sociologie","size":1058.0}]
+};
+		
