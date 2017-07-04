@@ -18,6 +18,8 @@
   color: #777;
   border-top: 1px solid #e5e5e5;
 }
+
+.liquidFillGaugeText { font-family: Helvetica; font-weight: bold; }
 </style>
 
 <script src="./d3.v3.min.js"></script>
@@ -25,6 +27,7 @@
 <script src="./datamaps.none.min.js"></script>
 <script src="./jquery-3.2.1.min.js"></script>
 <script src="./bootstrap.min.js"></script>
+<script src="./Gauge/liquidFillGauge.js" language="JavaScript"></script>
 </head>
 <body>
 
@@ -39,7 +42,12 @@
     </div>
     <div class="col-md-6">
         <div class="row">
-          <div class="col-md-12">Span 2</div>
+          <div class="col-md-6">
+            <svg id="fillgauge1" width="100%" height="150"></svg>
+          </div>
+            <div class="col-md-6">
+              <svg id="fillgauge2" width="100%" height="150"></svg>
+            </div>
         </div>
         <div class="row">
           <div class="col-md-12">
@@ -97,7 +105,8 @@
       $("header > h3").text("");
       var target = $(event.target);
       if(target.hasClass("datamaps-subunit")){
-        switch(target.attr("class").substring(17)){
+        var city = target.attr("class").substring(17);
+        switch(city){
           case "Amsterdam":
           case "Breda":
           case "Delft":
@@ -111,8 +120,10 @@
           case "Tilburg":
           case "Utrecht (Ut)":
           case "Wageningen":
-            $("header > h3").text(target.attr("class").substring(17));
-            uni(target.attr("class").substring(17));
+            $("header > h3").text(city);
+            uni(city);
+            gauge1.update(Math.round(man(city)));
+            gauge2.update(Math.round(vrouw(city)));
             break;
           default:
             $("header > h3").text("This municipality doesn't have a university");
@@ -191,8 +202,49 @@
     return {children: classes};
   }
 
+  var manvrouwdata = {"Amsterdam": {"Man":44.54838800190802,"Vrouw":55.45161199809198},
+                      "Breda": {"Man":28.23920265780731,"Vrouw":71.76079734219269},
+                      "Delft": {"Man":76.70306012609565,"Vrouw":23.29693987390435},
+                      "Eindhoven": {"Man":77.73764456638766,"Vrouw":22.262355433612336},
+                      "Enschede": {"Man":63.990879522516177,"Vrouw":36.00912047748382},
+                      "Groningen (Gr)": {"Man":49.16494288596554,"Vrouw":50.83505711403446},
+                      "Leiden": {"Man":40.97824174535218,"Vrouw":59.021758254647817},
+                      "Maastricht": {"Man":44.10603170933749,"Vrouw":55.893968290662517},
+                      "Nijmegen": {"Man":42.88842981625013,"Vrouw":57.11157018374986},
+                      "Rotterdam": {"Man":51.860434322033899,"Vrouw":48.139565677966107},
+                      "Tilburg": {"Man":52.98628413846489,"Vrouw":47.01371586153511},
+                      "Utrecht (Ut)": {"Man":41.94416057690454,"Vrouw":58.05583942309547},
+                      "Wageningen": {"Man":45.95264439035185,"Vrouw":54.04735560964815}
+                    };
 
+    //LAAD VROUW
+    var config1 = liquidFillGaugeDefaultSettings();
+    config1.circleColor = "#FF7777";
+    config1.textColor = "#FF4444";
+    config1.waveTextColor = "#FFAAAA";
+    config1.waveColor = "#FFDDDD";
+    config1.circleThickness = 0.2;
+    config1.textVertPosition = 0.2;
+    config1.waveAnimateTime = 1000;
+    var gauge1 = loadLiquidFillGauge("fillgauge1", 0, config1);
+    //LAAD MAN
+    var config2 = liquidFillGaugeDefaultSettings();
+    config2.circleColor = "#178BCA";
+    config2.textColor = "#045681";
+    config2.waveTextColor = "#A4DBf8";
+    config2.waveColor = "#178BCA";
+    config2.circleThickness = 0.2;
+    config2.textVertPosition = 0.2;
+    config2.waveAnimateTime = 1000;
+    var gauge2= loadLiquidFillGauge("fillgauge2", 0, config2);
 
+    function man(city){
+      return manvrouwdata[city].Man;
+    }
+
+    function vrouw(city){
+      return manvrouwdata[city].Vrouw;
+    }
 </script>
 </body>
 </html>
