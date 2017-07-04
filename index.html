@@ -6,7 +6,19 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<link rel="stylesheet" src="./bootstrap.min.css">
+<link rel="stylesheet" href="./bootstrap.min.css">
+<style type="text/css">
+.header {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.footer {
+  padding-top: 10px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+</style>
 
 <script src="./d3.v3.min.js"></script>
 <script src="./topojson.v1.min.js"></script>
@@ -17,15 +29,30 @@
 <body>
 
 <div class="container">
+  <header class="header clearfix">
+    <h1 class="">University selector</h1>
+    <h3 class="text-muted">Select a university below</h3>
+  </header>
   <div class="row">
     <div class="col-md-6">
-      <div id="arcs" style="height: 580px; width: 486px;"></div>
+      <div id="arcs" style="height: 500px; width: 486px;"></div>
     </div>
     <div class="col-md-6">
-      <svg id="uni" width="486" height="580" font-family="sans-serif" font-size="10" text-anchor="middle"></svg>
+        <div class="row">
+          <div class="col-md-12">Span 2</div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <svg id="uni" width="486" height="486" font-family="sans-serif" font-size="10" text-anchor="middle"></svg>
+          </div>
+        </div>
     </div>
   </div>
+  <footer class="footer">
+    <p>&copy; 2017 Florian Fikkert &amp; Sander Koning</p>
+  </footer>
 </div>
+
 
 <script>
   var map = new Datamap({
@@ -56,7 +83,7 @@
     setProjection: function(element) {
       var projection = d3.geo.mercator()
         .center([6, 52])
-        .scale(7000)
+        .scale(6000)
         .translate([element.offsetWidth / 2 + 95, element.offsetHeight / 2 + 40]);
 
        var path = d3.geo.path().projection(projection);
@@ -65,6 +92,7 @@
   });
   $(function(){
     $("#arcs").click(function(event){
+      $("header > h3").text("");
       var target = $(event.target);
       if(target.hasClass("datamaps-subunit")){
         switch(target.attr("class").substring(17)){
@@ -81,10 +109,11 @@
           case "Tilburg":
           case "Utrecht (Ut)":
           case "Wageningen":
+            $("header > h3").text(target.attr("class").substring(17));
             //uni(target.attr("class").substring(17));
             break;
           default:
-            alert("This municipality doesn't have a university");
+            $("header > h3").text("This municipality doesn't have a university");
         }
       }
     });
