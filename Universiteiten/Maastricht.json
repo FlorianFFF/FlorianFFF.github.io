@@ -1,0 +1,21 @@
+{
+  "name":"root",
+  "children":[
+	{"name":"Psychologie","size":4822.0},
+	{"name":"Europese Studies","size":4834.0},
+	{"name":"Econometrie en Operationele Research","size":983.0},
+	{"name":"Fiscale Economie","size":787.0},
+	{"name":"Economie en Bedrijfseconomie","size":4021.0},
+	{"name":"International Business","size":9009.0},
+	{"name":"Cultuurwetenschappen","size":2048.0},
+	{"name":"Liberal Arts and Sciences","size":3989.0},
+	{"name":"Fiscaal Recht","size":857.0},
+	{"name":"Rechtsgeleerdheid","size":2382.0},
+	{"name":"European Law School","size":3952.0},
+	{"name":"Kennistechnologie","size":833.0},
+	{"name":"Biomedische Wetenschappen","size":2876.0},
+	{"name":"Gezondheidswetenschappen","size":3907.0},
+	{"name":"Geneeskunde","size":5204.0},
+	{"name":"European Public Health","size":1405.0}
+  ]
+}

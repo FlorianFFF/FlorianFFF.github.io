@@ -1,0 +1,29 @@
+{
+  "name":"root",
+  "children":[
+	{"name":"Algemene Cultuurwetenschappen","size":477.0},
+	{"name":"Theologie","size":386.0},
+	{"name":"Communicatie- en Informatiewetenschappen","size":2099.0},
+	{"name":"Wijsbegeerte","size":590.0},
+	{"name":"Liberal Arts and Sciences","size":1264.0},
+	{"name":"Religie in Samenleving en Cultuur","size":35.0},
+	{"name":"Internationaal en Europees Recht","size":192.0},
+	{"name":"Bedrijfseconomie","size":9520.0},
+	{"name":"Fiscaal Recht","size":1477.0},
+	{"name":"Economie en Bedrijfseconomie","size":1440.0},
+	{"name":"Global Law","size":645.0},
+	{"name":"International Business Administration","size":3324.0},
+	{"name":"Ondernemingsrecht","size":488.0},
+	{"name":"Economie","size":827.0},
+	{"name":"Rechtsgeleerdheid","size":5112.0},
+	{"name":"Fiscale Economie","size":1366.0},
+	{"name":"Economie en Informatica","size":236.0},
+	{"name":"Econometrie en Operationele Research","size":1609.0},
+	{"name":"Bestuurskunde","size":1040.0},
+	{"name":"Organisatiewetenschappen","size":2058.0},
+	{"name":"Psychologie","size":5014.0},
+	{"name":"Personeelwetenschappen","size":1448.0},
+	{"name":"Sociologie","size":690.0},
+	{"name":"Vrijetijdwetenschappen","size":2.0}
+	  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name":"root",
+  "children":[
+	{"name":"Gezondheid en Maatschappij","size":948.0},
+	{"name":"Internationaal Land- en Waterbeheer","size":1002.0},
+	{"name":"Economie en Beleid","size":552.0},
+	{"name":"Bos- en Natuurbeheer","size":1099.0},
+	{"name":"Milieuwetenschappen","size":536.0},
+	{"name":"Agrotechnologie","size":586.0},
+	{"name":"Plantenwetenschappen","size":758.0},
+	{"name":"Bedrijfs- en Consumentenwetenschappen","size":2205.0},
+	{"name":"Internationale Ontwikkelingsstudies","size":1573.0},
+	{"name":"Biotechnologie","size":1330.0},
+	{"name":"Landschapsarchitectuur en ruimtelijke planning","size":1037.0},
+	{"name":"Dierwetenschappen","size":1727.0},
+	{"name":"Biologie","size":2441.0},
+	{"name":"Voeding en Gezondheid","size":2247.0},
+	{"name":"Bodem, Water, Atmosfeer","size":1161.0},
+	{"name":"Levensmiddelentechnologie","size":1733.0},
+	{"name":"Moleculaire Levenswetenschappen","size":936.0},
+	{"name":"Communicatiewetenschappen","size":304.0},
+	{"name":"Tourism (joint degree)","size":420.0}
+	  ]
+}

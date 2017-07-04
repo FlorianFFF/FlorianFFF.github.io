@@ -1,0 +1,29 @@
+{
+  "name":"root",
+  "children":[
+	{"name":"Bedrijfskunde","size":866.0},
+	{"name":"International Business Administration","size":2728.0},
+	{"name":"Psychologie","size":3668.0},
+	{"name":"Onderwijskunde","size":243.0},
+	{"name":"Communicatiewetenschap","size":1383.0},
+	{"name":"Bestuurskunde","size":463.0},
+	{"name":"European Public Administration","size":1326.0},
+	{"name":"Klinische Technologie","size":1833.0},
+	{"name":"Gezondheidswetenschappen","size":761.0},
+	{"name":"Technology and Liberal Arts & Sciences","size":259.0},
+	{"name":"Advanced Technology","size":1239.0},
+	{"name":"Creative Technology","size":1294.0},
+	{"name":"Bedrijfsinformatie-technologie","size":573.0},
+	{"name":"Biomedische Technologie","size":1167.0},
+	{"name":"Telematica","size":14.0},
+	{"name":"Civiele Techniek","size":1462.0},
+	{"name":"Electrical Engineering","size":1093.0},
+	{"name":"Industrieel Ontwerpen","size":1985.0},
+	{"name":"Scheikundige Technologie","size":804.0},
+	{"name":"Technische Natuurkunde","size":1059.0},
+	{"name":"Technische Informatica","size":1181.0},
+	{"name":"Technische Wiskunde","size":595.0},
+	{"name":"Werktuigbouwkunde","size":2280.0},
+	{"name":"Technische Bedrijfskunde","size":1547.0}
+	  ]
+}

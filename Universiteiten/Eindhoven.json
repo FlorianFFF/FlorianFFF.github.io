@@ -1,0 +1,17 @@
+{
+  "name":"root",
+  "children":[
+	{"name":"Technische Bedrijfskunde","size":4162.0},
+	{"name":"Werktuigbouwkunde","size":4043.0},
+	{"name":"Technische Wiskunde","size":989.0},
+	{"name":"Technische Informatica","size":2465.0},
+	{"name":"Technische Natuurkunde","size":2069.0},
+	{"name":"Scheikundige Technologie","size":1463.0},
+	{"name":"Electrical Engineering","size":2795.0},
+	{"name":"Bouwkunde","size":3989.0},
+	{"name":"Technische Innovatiewetenschappen","size":1717.0},
+	{"name":"Biomedische Technologie","size":2663.0},
+	{"name":"Data Science (joint degree)","size":55.0},
+	{"name":"Industrial Design","size":2383.0}
+	  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name":"root",
+  "children":[
+	{"name":"Klinische Technologie (joint degree)","size":518.0},
+	{"name":"Molecular Science and Technology (joint degree)","size":87.0},
+	{"name":"Life Science and Technology (joint degree)","size":437.0},
+	{"name":"Nanobiologie (joint degree)","size":825.0},
+	{"name":"Life Science and Technology","size":972.0},
+	{"name":"Bouwkunde","size":6344.0},
+	{"name":"Civiele Techniek","size":7040.0},
+	{"name":"Electrical Engineering","size":2114.0},
+	{"name":"Industrieel Ontwerpen","size":5540.0},
+	{"name":"Luchtvaart- en Ruimtevaarttechniek","size":7125.0},
+	{"name":"Maritieme Techniek","size":2208.0},
+	{"name":"Technische Aardwetenschappen","size":1564.0},
+	{"name":"Technische Natuurkunde","size":3691.0},
+	{"name":"Technische Informatica","size":3214.0},
+	{"name":"Technische Wiskunde","size":1721.0},
+	{"name":"Werktuigbouwkunde","size":10027.0},
+	{"name":"Technische Bestuurskunde","size":4050.0},
+	{"name":"Molecular Science and Technology","size":1050.0}
+	  ]
+}
