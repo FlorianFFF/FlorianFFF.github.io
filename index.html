@@ -1,15 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+
 <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" src="./bootstrap.min.css">
+
+<script src="./d3.v3.min.js"></script>
+<script src="./topojson.v1.min.js"></script>
+<script src="./datamaps.none.min.js"></script>
+<script src="./jquery-3.2.1.min.js"></script>
+<script src="./bootstrap.min.js"></script>
 </head>
 <body>
-<script src="d3.v3.min.js"></script>
-<script src="topojson.v1.min.js"></script>
-<script src="datamaps.none.min.js"></script>
-<script src="jquery-3.2.1.min.js"></script>
 
-<div id="arcs" style="height: 580px; width: 500px;"></div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <div id="arcs" style="height: 580px; width: 486px;"></div>
+    </div>
+    <div class="col-md-6">
+      <svg id="uni" width="486" height="580" font-family="sans-serif" font-size="10" text-anchor="middle"></svg>
+    </div>
+  </div>
+</div>
 
 <script>
   var map = new Datamap({
@@ -53,31 +69,20 @@
       if(target.hasClass("datamaps-subunit")){
         switch(target.attr("class").substring(17)){
           case "Amsterdam":
-              break;
           case "Breda":
-              break;
           case "Delft":
-              break;
           case "Eindhoven":
-              break;
           case "Enschede":
-              break;
           case "Groningen (Gr)":
-              break;
           case "Leiden":
-              break;
           case "Maastricht":
-              break;
           case "Nijmegen":
-              break;
           case "Rotterdam":
-              break;
           case "Tilburg":
-              break;
           case "Utrecht (Ut)":
-              break;
           case "Wageningen":
-              break;
+            //uni(target.attr("class").substring(17));
+            break;
           default:
             alert("This municipality doesn't have a university");
         }
