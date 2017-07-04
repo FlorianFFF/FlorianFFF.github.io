@@ -126,7 +126,7 @@
             gauge2.update(Math.round(vrouw(city)));
             break;
           default:
-            $("header > h3").text("This municipality doesn't have a university");
+            $("header > h3").text("This municipality ("+ target.attr("class").substring(17) +") doesn't have a university");
         }
       }
     });

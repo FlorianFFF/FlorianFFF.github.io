@@ -35,11 +35,7 @@
   config2.waveAnimateTime = 1000;
   var gauge2= loadLiquidFillGauge("fillgauge2", 50, config2);
 
-    function NewValue(city){
-      d3.csv("manvrouwstad.csv", function(data) {
-        dataset = data.map(function(d) { return [ d["city"], +d["male"], +d["female"] ]; });
-      });
-
+    function NewValue(){
         if(Math.random() > .5){
             return Math.round(Math.random()*100);
         } else {
