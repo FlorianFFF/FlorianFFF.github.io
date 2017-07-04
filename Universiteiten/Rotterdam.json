@@ -1,6 +1,8 @@
 {
  "name": "Study",
  "children": [
+	 "name": "analytics",
+	   "children": [
 		{"name":"Klinische Technologie (joint degree)","size":1.0},
 		{"name":"Bestuurskunde","size":1926.0},
 		{"name":"Geneeskunde","size":7044.0},
@@ -24,6 +26,6 @@
 		{"name":"Nanobiologie (joint degree)","size":25.0},
 		{"name":"Bedrijfskunde","size":10709.0},
 		{"name":"Sociologie","size":1058.0}
+		]
 	]
-};
-		
+}
